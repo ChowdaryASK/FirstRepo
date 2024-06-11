@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="main-container">
         <div class="login">
             <div class="details">
                 <label for="un">UserName:</label><br>
-                <input type="text" id="un" placeholder="Enter Your UserName......">
+                <input type="text" id="un" placeholder="Enter Your UserName......" class="textbox">
             </div>
             <div class="details">
                 <label for="pwd">Password:</label><br>
-                <input type="password" id="pwd" placeholder="Enter Your Password......">
+                <input type="password" id="pwd" placeholder="Enter Your Password......" class="textbox">
             </div>
-            <div class="details">
-                <label for="forgotpassword">ForgotPassword?</label>
-                <input type="button" value="login">
+            <div class="details1">
+                <a href="forgotpassword"><label  class="fpwd"  for="forgotpassword">ForgotPassword?</label></a><br>
+                <input type="button" value="Login" class="textbox" id="login">
             </div>
         </div>
     </div>
